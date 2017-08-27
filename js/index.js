@@ -34,8 +34,9 @@ for ( var i = 0; i < markers.length; ++i )
 }
 
 map.addLayer( markerClusters );
+*/
 
-/*
+
 for ( var i=0; i < markers.length; ++i ) 
 {
    L.marker( [markers[i].lat, markers[i].long], {icon: myIcon} )

@@ -18,7 +18,7 @@ var myIcon = L.icon({
   popupAnchor: [0, -14]
 });
 
-/*
+
 var markerClusters = L.markerClusterGroup();
  
 for ( var i = 0; i < markers.length; ++i )
@@ -36,9 +36,11 @@ for ( var i = 0; i < markers.length; ++i )
 map.addLayer( markerClusters );
 */
 
+
 for ( var i=0; i < markers.length; ++i ) 
 {
    L.marker( [markers[i].lat, markers[i].long], {icon: myIcon} )
       .bindPopup( '<a href="' + markers[i].name + '" target="_blank">' + markers[i].address + '</a>' )
       .addTo( map );
 }
+*/
